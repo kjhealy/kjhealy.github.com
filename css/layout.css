@@ -134,11 +134,10 @@
   float: left;
   margin: 0 2px;
   padding: 5px 0.5em;
-
   font: 400 1.2em;
+  font-weight: normal;
   text-decoration: none;
   text-transform: lowercase;
-  color: #A3A53B;
 }
 
 #mainMenu li a:hover,

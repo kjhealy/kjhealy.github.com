@@ -36,17 +36,18 @@ body {
 
 h1 {   
   clear: both;
-  font-size: 28px;
-  line-height: 36px;
+  font-size: 56px;
+  line-height: 72px;
 /*  font: 700 2.5em "trebuchet ms", serif;*/
 /*  color: #3B6EA5;*/
 }
 
 h2 {
 /*  font: 400 1.5em "trebuchet ms", serif;*/
-	font-size: 22px; 
+	font-size: 18px; 
 	line-height: 36px;
 	margin-bottom: 18px;
+	font-weight: lighter;
 /*  	color: #3B6EA5;*/
 }
 
@@ -61,27 +62,30 @@ h2 a:hover {
 h3 {
 /*  font: 400 1.3em "trebuchet ms", serif;
   color: #020202;*/
-	font-size: 18px; 
+  font-size: 14px; 
   line-height: 18px;
-  margin-bottom: 20px;
+  margin-bottom: 18px;
+  font-weight: lighter;
 }
 
-/*h4 {
-  font: 700 1em "trebuchet ms", serif;
+h4 {
+  font: 1em;
   line-height: 1.5em;
-  color: #a3a53b;
+  font-weight: 500;
 }
 
-h5 {
-  font: 700 1em "trebuchet ms", serif;
-  color: #3B6EA5;
-}
-
-h6 {
+/*h6 {
   font: 700 1em "trebuchet ms", serif;
   color: #A3A53B;
 }
 */
+
+h5 {
+  font-size: 18px; 
+  line-height: 18px;
+  font-weight: lighter;
+}
+
 
 h1, h2, h3, h4, h5, h6, p, dl {
   margin: 0;
@@ -93,6 +97,20 @@ p {
 	line-height: 170%;*/
 	margin-bottom: 18px;
 }
+
+p, ul, ol, li { 
+    margin-bottom: 18px; 
+}
+
+ul {
+    list-style-type: none;
+    margin-left: 2em;
+}
+
+ol {
+    margin-left: 2em;
+}
+
 
 /* Done so the leftmost column aligns properly with the header.
    If the leftmost column has class gradient applied to it, 
@@ -112,8 +130,8 @@ p {
   color: #A53D3B;
 }*/
 
-a { color:#000; text-decoration: none }
-a:hover { color:#066; text-decoration: underline }
+a { color:#000; text-decoration: none; font-weight: bold; }
+a:hover { color:#066; text-decoration: underline; }
 
 
 /* Uncomment this if you would like a visited link style 
@@ -129,24 +147,21 @@ a:visited {
   color: #020202;
 }
 */
-ol, ul {
-  margin: 10px 30px;
+/*ol, ul {
+*//*  margin: 10px 30px;
   padding: 0 30px;
-/*  font: 400 0.9em "verdana", sans-serif;
+*//*  font: 400 0.9em "verdana", sans-serif;
   line-height: 145%;*/
-}
-
-ol {
+/*}
+*/
+/*ol {
   color: #020202;
 }
-
+*/
 ol span {
 /*  color: #EEE;*/
 }
 
-ul {
-/*  list-style-image: url(../images/bg/bullet.gif);
-*/}
 
 del {
   color: #AAA;
