@@ -13,43 +13,60 @@ body {
 
   margin: 0;
   padding: 0;
+/*  text-align: center;*/
+  
+  background: #fff;
+  color: black;
   text-align: center;
+  font-size: 13px;
+  line-height: 18px;
+  font-family: "Lucida Grande", Verdana, Arial, sans-serif;
 
 /*  font: 400 1em verdana, arial, sans-serif;
 */  
 	
-	font: 400 0.9em "verdana", serif;
+/*	font: 400 0.9em "verdana", serif;
 	line-height: 170%;
 
   background: #FFFFFF;
   color: #020202;
+*/
+
 }
 
 h1 {   
   clear: both;
-  font: 700 2.5em "trebuchet ms", serif;
-  color: #3B6EA5;
+  font-size: 28px;
+  line-height: 36px;
+/*  font: 700 2.5em "trebuchet ms", serif;*/
+/*  color: #3B6EA5;*/
 }
 
 h2 {
-  font: 400 1.5em "trebuchet ms", serif;
-  color: #3B6EA5;
+/*  font: 400 1.5em "trebuchet ms", serif;*/
+	font-size: 22px; 
+	line-height: 36px;
+	margin-bottom: 18px;
+/*  	color: #3B6EA5;*/
 }
 
-h2 a {
+/*h2 a {
   color: #A53D3B;
 }
 
 h2 a:hover {
   color: #A53D3B;
 }
-
+*/
 h3 {
-  font: 400 1.3em "trebuchet ms", serif;
-  color: #020202;
+/*  font: 400 1.3em "trebuchet ms", serif;
+  color: #020202;*/
+	font-size: 18px; 
+  line-height: 18px;
+  margin-bottom: 20px;
 }
 
-h4 {
+/*h4 {
   font: 700 1em "trebuchet ms", serif;
   line-height: 1.5em;
   color: #a3a53b;
@@ -64,7 +81,7 @@ h6 {
   font: 700 1em "trebuchet ms", serif;
   color: #A3A53B;
 }
-
+*/
 
 h1, h2, h3, h4, h5, h6, p, dl {
   margin: 0;
@@ -72,8 +89,9 @@ h1, h2, h3, h4, h5, h6, p, dl {
 }
 
 p {
-	font: 400 1em "verdana", sans-serif;
-	line-height: 170%;
+/*	font: 400 1em "verdana", sans-serif;
+	line-height: 170%;*/
+	margin-bottom: 18px;
 }
 
 /* Done so the leftmost column aligns properly with the header.
@@ -90,23 +108,27 @@ p {
   padding-left: 0;
 }
 
-a {
+/*a {
   color: #A53D3B;
-}
+}*/
+
+a { color:#000; text-decoration: none }
+a:hover { color:#066; text-decoration: underline }
+
 
 /* Uncomment this if you would like a visited link style 
 a:visited {
   text-decoration: line-through;
 } */
 
-a:hover {
+/*a:hover {
   color: #A53D3B;
-}
+}*/
 
-b {
+/*b {
   color: #020202;
 }
-
+*/
 ol, ul {
   margin: 10px 30px;
   padding: 0 30px;
@@ -177,7 +199,7 @@ input,
 textarea,
 select {
   padding: 2px;
-  font: 400 1em verdana, sans-serif;
+/*  font: 400 1em verdana, sans-serif;*/
   color: #444;
   background: #EEE;
   border: 1px solid #444;
@@ -197,7 +219,7 @@ select:hover {
 input.button {
   padding: 2px 5px;
 
-  font: 400 1.1em "trebuchet ms", serif;
+/*  font: 400 1.1em "trebuchet ms", serif;*/
 
   color: #555;
   background: #9FF3FF;
@@ -215,9 +237,12 @@ input.button {
  **************************************************************/
 
 blockquote {
-  margin: 10px 15px;
+/*  margin: 10px 15px;
   padding-left: 27px;
-  font-size: 1em;
+  font-size: 1em;*/
+  margin: 0 18px 18px 18px;
+  font-size:12px;
+  font-color:#333;
   background-color: #D8E2F3;  
 /*  background-image: url(../images/icons/quote.gif);*/
 /*  background-repeat: no-repeat;
