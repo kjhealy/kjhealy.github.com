@@ -6,9 +6,12 @@
  **************************************************************/
 
 body {
-  font: 400 12pt verdana, arial, sans-serif;
-  color: #000;
-  background: #FFF;
+    background: #fff;
+    color: black;
+    text-align: center;
+    font-size: 13px;
+    line-height: 18px;
+    font-family: "Lucida Grande", Verdana, Arial, sans-serif;
 }
 
 h1 {
