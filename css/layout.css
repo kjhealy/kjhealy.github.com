@@ -68,10 +68,7 @@
 #header h1 {
   margin: 0;
   padding: 0;
-  font: 600 5em "trebuchet ms", serif;
-  letter-spacing: -1px;
 /*  text-transform: lowercase;*/
-  color: #1B324B;
 }
 
 #header h2 {
@@ -82,9 +79,7 @@
   margin: 0;
   padding: 0;
 
-  font: 700 1em "trebuchet ms", serif;
   text-transform: lowercase;
-  color: #00F0EC;
 }
 
 
@@ -140,7 +135,7 @@
   margin: 0 2px;
   padding: 5px 0.5em;
 
-  font: 400 1.2em "trebuchet ms", serif;
+  font: 400 1.2em;
   text-decoration: none;
   text-transform: lowercase;
   color: #A3A53B;
@@ -148,7 +143,6 @@
 
 #mainMenu li a:hover,
 #mainMenu li a.here {
-  color: #1B324B;
   border-top: 5px solid #000;
 }
 
@@ -173,7 +167,7 @@ ul.sideMenu {
   
   /* Needed since IE fails when you give it list-style: none; */  
   list-style-image: url(foo.gif);
-  font: 400 1.3em "trebuchet ms", serif;
+  font: 400 1.3em;
 }
 
 .sideMenu li a {
@@ -182,11 +176,9 @@ ul.sideMenu {
   padding: 3px 5px;    
   
   text-decoration: none;
-  color: #020202;
 } 
 
 .sideMenu li a:hover {
-  color: #A53D3B;
   background: #FFF;
 }
 
@@ -194,7 +186,6 @@ ul.sideMenu {
 .sideMenu li.here {
   display: block;  
   padding: 5px;
-  color: #020202;
   background: #FFF;
 }
 
@@ -206,14 +197,12 @@ ul.sideMenu {
 
 .sideMenu li.here ul li a {
   padding-left: 35px;
-  font: 400 0.55em verdana, arial, sans-serif; 
-  color: #020202;  
+  font: 400 0.55em; 
   background:#FFF;
 /*  background: url(../images/bg/bullet.gif) no-repeat 10px 0px;*/
 }
 
 .sideMenu li.here ul li a:hover {
-  color: #A53D3B;
   background:#FFF;
 /*  background: #A3A53B url(../images/bg/bullet.gif) no-repeat 10px 0px;
 */}
