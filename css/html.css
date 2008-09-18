@@ -168,7 +168,7 @@ del {
   color: #AAA;
 }
 
-code {
+/*code {
   margin: 10px 15px;
   padding: 10px;
   display: block;
@@ -179,7 +179,81 @@ code {
   white-space: pre;
   
   background: #A3896E;
+}*/
+
+/*
+	Code highlighting
+    VibrantInk colours from Justin Palmer @ http://encytemedia.com
+*/
+
+ pre {
+   padding: 5px 8px;
+   overflow: auto;
+   width: 100%;
+ }
+ pre, code {
+   background-color: #222;
+ }
+
+ /** RUBY / JAVASCRIPT **/
+ code span.comment {
+ 	color: #BD48B3;
+ }
+
+ code span.string {
+ 	color: #99FF00;
+ }
+
+ code span.brackets {
+
+ }
+
+ code span.symbol {
+ 	color: #6BCFF7;
+ }
+
+ code span.keywords {
+ 	color: #FF8400;
+ }
+
+ /** HTML **/
+ code.html span.tag {
+ 	color: #fff;
+ }
+
+ code.html span.attribute {
+ 	color: #FFD500;
+ }
+
+ code.html span.string {
+ 	color: #99FF00;
+ }
+
+ code.html span.comment {
+ 	color: #999;
+ }
+
+ code.html span.doctype {
+ 	color: #D7FF80;
+ }
+
+/** CSS **/
+code.css .selectors {
+  color: #f60;
 }
+
+code.css .properties {
+  color: #995;
+}
+
+/** SHELL **/
+code.shell {
+  color: #999;
+}
+code.shell span.keywords {
+ 	color: #fff;
+}
+
 
 .leftColumn code {
   margin-left: 0;
