@@ -1,0 +1,61 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Right Now: What Are You Doing?</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="stylesheet" href="css/gbtw.css" type="text/css" />
+<script type="text/javascript">
+//<![CDATA[
+		<!-- Copyright 2003, Sandeep Gangadharan -->
+		<!-- For more free scripts go to http://www.sivamdesign.com/scripts/ -->
+		<!-- 
+
+		function sivamtime() {
+		now=new Date();
+		hour=now.getHours();
+		min=now.getMinutes();
+		sec=now.getSeconds();
+
+		if (min<=9) { min="0"+min; }
+		if (sec<=9) { sec="0"+sec; }
+		if (hour>12) { hour=hour-12; add="pm"; }
+		else { hour=hour; add="am"; }
+		if (hour==12) { add="pm"; }
+
+		time = ((hour<=9) ? "0"+hour : hour) + ":" + min + ":" + sec + " " + add;
+
+		if (document.getElementById) { document.getElementById('theTime').innerHTML = time; }
+		else if (document.layers) {
+		document.layers.theTime.document.write(time);
+		document.layers.theTime.document.close(); }
+
+		setTimeout("sivamtime()", 1000);
+		}
+		window.onload = sivamtime;
+
+		// -->
+
+		//]]>
+		</script>
+<style type="text/css">
+<!--
+a {
+	color: #666;
+	text-decoration:none;
+}
+-->
+</style>
+</head>
+<body>
+<div id="guts">
+    <p><img src="http://media.libsyn.com/media/themerlinshow/brain-in-a-jar.jpg" alt="Your Brain Is Here. Are You?" /></p>
+    <span style="font-size:20px;color:#999;">Right now, it’s <span id="theTime">&nbsp;</span>.
+    <p style="font-size:30px;line-height:120%;"> Is <strong>this</strong> really<br />
+        what you want<br />
+        to be <strong style="color:#cc0000;">doing</strong><br />
+        right now?</p>
+</div>
+<!-- /guts -->
+</body>
+</html>
