@@ -20,7 +20,8 @@ body {
   text-align: center;
   font-size: 12px;
   line-height: 18px;
-  font-family: "Helvetica", "Lucida Bright", Verdana, Arial, sans-serif;
+/*  font-family: "Helvetica", "Lucida Bright", Verdana, Arial, sans-serif;*/
+  font-family: "Constantia", "Georgia", serif; 
 
 /*  font: 400 1em verdana, arial, sans-serif;
 */  
