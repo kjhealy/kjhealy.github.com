@@ -368,11 +368,18 @@ img.floatLeft {
 }
 
 a img {  
-  border: 2px solid #8BE6FA;
+  border: 1px solid #CCC;
 }
 
 a:hover img {  
   /* Fixes IE bug - IE doesn't correctly apply the style on a:hover so need to mask it */
-  border: 2px solid #FFF !important;
-  border: 2px solid #8BE6FA;
-}
+  border: 1px solid #FFF !important;
+  border: 1px solid #CCC;
+}   
+
+.figure .caption {  align: right;
+                    font-size: 80%;
+                  text-align: left; }
+
+
+
