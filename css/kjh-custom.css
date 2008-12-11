@@ -211,10 +211,18 @@ dl          { margin: 0 0 1.5em 0; }
 dl dt       { font-weight: bold; }
 dd          { margin-left: 1.5em;}
 
+
+#pubsList ul { 
+	list-style: none;
+		margin-left: 0;
+		padding-left: 1em;
+		text-indent: -1em;
+}
+
 /* Sociology Image Banner */
 .socbanner	{height: 42px;}
 
-
+ 
 /* Menu
 -------------------------------------------------------------- */
 #mainMenu {
