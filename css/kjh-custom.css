@@ -10,7 +10,7 @@
 /* Default font settings. The font-size percentage is of 16px. */
 
 body { 
-  font-size: 80%;
+  font-size: 87.5%;
   color: #222; 
   font-family: Helvetica, Arial, sans-serif;         
 }
@@ -24,7 +24,7 @@ body {
 	padding: 0px;
 }  */
 
-#marquee {
+/*#marquee {
 	position: relative;
 	height: 300px;
   	background-image:url(../img/wall-art-crop2.jpg);
@@ -104,7 +104,7 @@ body {
 	border-style: solid;
 	border-bottom-width: 1px;
 	border-color:  #999999; 
-}  
+}    */
 
 
 #menu_divider {
