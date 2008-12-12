@@ -24,15 +24,24 @@ body {
 	padding: 0px;
 }  */
 
-/*#marquee {
+#marquee {
 	position: relative;
 	height: 300px;
-  	background-image:url(../img/wall-art-crop2.jpg);
+  	background-image:url(../images/shelfcrop.png);
   	background-repeat:no-repeat;
   	background-position:left;
-} 
+	z-index:-1; /* Make sure the image doesn't interfere with the menu */
+}  
 
-#marquee-contact {
+.pull-up-2 { 
+	margin-top:-2em; 
+}
+   
+.pull-up-4 { 
+	margin-top:-4em; 
+}
+
+/*#marquee-contact {
 	position: relative;
 	height: 200px;
   	background-image:url(../img/catalinas-snow-crop.jpg);
@@ -143,8 +152,8 @@ body {
 h1,h2,h3,h4,h5,h6 { font-weight: normal; color: #111; }
 
 h1 { font-size: 3em; line-height: 1; margin-bottom: 0.5em; color:#C20000; } /*LBG Red*/ 
-h2 { font-size: 2em; margin-bottom: 0.75em; color:#000; }
-h3 { font-size: 1.5em; line-height: 1; margin-bottom: 1em; color:#000; }
+h2 { font-size: 1.8em; margin-bottom: 0.75em; color:#000; }
+h3 { font-size: 1.4em; line-height: 1; margin-bottom: 1em; color:#000; }
 h4 { font-size: 1.2em; line-height: 1.25; margin-bottom: 1.25em; }
 h5 { font-size: 1em; font-weight: bold; margin-bottom: 1.5em; }
 h6 { font-size: 1em; font-weight: bold; }
