@@ -177,7 +177,7 @@ img         { margin: 0 0 1.5em; }
 
 a:focus, 
 a:hover     { color: #222; }
-a           { color: #003366; text-decoration: underline; }  /*AZ blue, or #0f2c69*/
+a           { color: #000; text-decoration: underline; } 
 
 blockquote  { margin: 1.5em; color: #666; font-style: italic; }
 strong      { font-weight: bold; }
