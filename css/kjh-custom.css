@@ -10,7 +10,7 @@
 /* Default font settings. The font-size percentage is of 16px. */
 
 body { 
-  font-size: 87.5%;
+  font-size: 100%;
   color: #222; 
   font-family: Helvetica, Arial, sans-serif;         
 }
