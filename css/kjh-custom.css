@@ -10,9 +10,11 @@
 /* Default font settings. The font-size percentage is of 16px. */
 
 body { 
-  font-size: 100%;
+  font-size: 120%;
   color: #2222; 
-  font-family: Helvetica, Arial, sans-serif;         
+/*  font-family: Helvetica, Arial, sans-serif;         */
+  font-family: Minion Pro, Warnock Pro, Georgia, serif;         
+  
 }
 
 /* Banners, lead image and dividers */ 
@@ -154,7 +156,7 @@ h1,h2,h3,h4,h5,h6 { font-weight: normal; color: #111; }
 h1 { font-size: 3em; line-height: 1; margin-bottom: 0.5em; color:#C20000; } /*LBG Red*/ 
 h2 { font-size: 1.8em; margin-bottom: 0.75em; color:#4444; }
 h3 { font-size: 1.4em; line-height: 1; margin-bottom: 0.5em; color:#4444; }
-h4 { font-size: 1.2em; font-weight: bold; line-height: 1.25; margin-bottom: 1.25em; color:#C20000; }
+h4 { font-size: 1.2em; font-weight: bold; line-height: 1.25; margin-bottom: 1.25em; color:#C20000; font-family: Myriad Pro, Helvetia, sans-serif}
 h5 { font-size: 1.2em; font-weight: normal; line-height: 1.25; margin-bottom: 1.25em; color:#2222;}
 h6 { font-size: 1em; font-weight: bold; }
 
@@ -260,6 +262,7 @@ dd          { margin-left: 1.5em;}
   padding: 5px 0.5em;
 
   font: 400 1.2em;
+  font-family: Myriad Pro, Helvetia, sans-serif;
   text-decoration: none;
   color: #4B1B00;   /*AZ Stylesheet "Town Brown" (http://externalrelations.arizona.edu/styleguide/pdf/UA_ExtendedPalette.pdf) */
 }
