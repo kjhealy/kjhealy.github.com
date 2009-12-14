@@ -106,10 +106,8 @@ p.pullquote { color: #4B1B00; font-size: 3em; font-family: Georgia, Serif; } /*F
 p.alert     { background: #FFF6BF; color: #514721; border-color: #FFD324; } /*For alert boxes */ 
 img         { margin: 0 0 1.5em; border: none;}
 
-a:focus, 
-a:hover     { color: #222; }
-a           {text-decoration: none; }       
-a:link {
+a {color: #222;}
+a:link, a:visited {
 	text-decoration: none;
 	color: #222;
 	border-color: #999;
@@ -213,10 +211,14 @@ dd          { margin-left: 1.5em;}
 #mainMenu li a.here {
   color: #CC0033;
   border-top: 5px solid #000;
+  border-bottom: none;
 }
 
 #mainMenu li a.last {
   margin-right: 0;
+}  
+#mainMenu a:visited { 
+	border-bottom: none;
 }
 
 /**************************************************************
