@@ -105,7 +105,15 @@ img         { margin: 0 0 1.5em; }
 
 a:focus, 
 a:hover     { color: #222; }
-a           { color: #222; text-decoration: underline; } 
+a           {text-decoration: none; }       
+a:link {
+	text-decoration: none;
+	color: #222;
+	border-color: #222;
+	border-width: 0 0 1px 0;
+	border-style: none none solid none;
+	padding: 3px 0px 2px 0px;
+    }
 
 blockquote  { margin: 1.5em; color: #666; font-style: italic; }
 strong      { font-weight: bold; }
