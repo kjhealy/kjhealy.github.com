@@ -200,6 +200,7 @@ dd          { margin-left: 1.5em;}
   float: left;
   margin: 0 2px;
   padding: 5px 0.5em;
+  border-bottom: none;
 
   font: 400 1.2em;
   font-family: Myriad Pro, Helvetia, sans-serif;
