@@ -116,10 +116,15 @@ a:link, a:visited {
 	padding: 0px 0px 1px 0px;
     }
 
-a.image-border {
+a.image-border:link {
 		text-decoration: none;
 		border: 0 none;
-		}
+		} 
+a.image-border:visited {
+	text-decoration: none;
+	border: 0 none;
+	   }		
+		
 
 blockquote  { margin: 1.5em; color: #666; font-style: italic; }
 strong      { font-weight: bold; }
