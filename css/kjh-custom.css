@@ -87,7 +87,7 @@ h2 { font-size: 1.8em; margin-bottom: 0.75em; color:#4444; }
 h3 { font-size: 1.4em; line-height: 1; margin-bottom: 0.5em; color:#4444; }
 h4 { font-size: 2em; font-weight: bold; line-height: 1.25; margin-bottom: 1.25em; margin-top: 0.25em; color:#C20000; font-family: Myriad Pro, Helvetica, sans-serif}
 h5 { font-size: 1.2em; font-weight: normal; line-height: 1.25; margin-bottom: 1.25em; color:#2222;}
-h6 { font-size: 1em; font-weight: bold; }
+h6 { font-size: 1em; font-weight: bold; margin-bottom: 1.1em;}
 
 h1 img, h2 img, h3 img, 
 h4 img, h5 img, h6 img {
