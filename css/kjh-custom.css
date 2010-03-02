@@ -91,6 +91,8 @@ h4 img, h5 img, h6 img {
   margin: 0;
 }
   
+h2.red {color:#DD4A40;}
+
 /* Text elements
 -------------------------------------------------------------- */
 
@@ -112,6 +114,16 @@ a:link, a:visited {
 	border-style: none none dotted none;
 	padding: 0px 0px 1px 0px;
     }
+	a.red {color:#DD4A40;}
+	a.red:link, a.red:visited {
+		text-decoration: none;
+		color:#DD4A40;
+		border-color: #999;
+		border-width: 0 0 1px 0;
+		border-style: none none dotted none;
+		padding: 0px 0px 1px 0px;
+	    }
+
 
 a.image-border:link {
 		text-decoration: none;
