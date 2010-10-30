@@ -11,15 +11,32 @@
    
 @font-face {
 	font-family: 'LeagueGothicRegular';
-	src: url('League_Gothic.eot');
-	src: local('League Gothic Regular'), local('LeagueGothic'), url('League_Gothic.ttf') format('truetype');
+	src: url('fonts/League_Gothic.eot');
+	src: local('League Gothic Regular'), local('LeagueGothic'), url('fonts/League_Gothic.ttf') format('truetype');
+}   
+
+@font-face {
+        font-family: 'DroidSansRegular';
+        src: url('fonts/DroidSans-webfont.eot');
+        src: local(' غ'), url('fonts/DroidSans-webfont.woff') format('woff'), url('fonts/DroidSans-webfont.ttf') format('truetype'), url('fonts/DroidSans-webfont.svg#webfontKYIQSBQk') format('svg');
+        font-weight: normal;
+        font-style: normal;
 }
+
+@font-face {
+        font-family: 'DroidSansBold';
+        src: url('fonts/DroidSans-Bold-webfont.eot');
+        src: local(' غ'), url('fonts/DroidSans-Bold-webfont.woff') format('woff'), url('fonts/DroidSans-Bold-webfont.ttf') format('truetype'), url('fonts/DroidSans-Bold-webfont.svg#webfontljpTCDjw') format('svg');
+        font-weight: normal;
+        font-style: normal;
+}
+
 
 body { 
   font-size: 120%;
   color: #2222; 
 /*  font-family: Helvetica, Arial, sans-serif;         */
-  font-family: Calibri, Tahoma, Verdana, sans-serif;         
+  font-family: 'DroidSansRegular', Helvetica, sans-serif;         
   
 }
 
