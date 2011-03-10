@@ -154,7 +154,10 @@ del         { color:#666; }
 
 pre,code    { margin: 1.5em 0; white-space: pre; }
 tt          { display: block; margin: 1.5em 0; line-height: 1.5; }
-pre,code,tt { font: 1em 'andale mono', 'lucida console', monospace; line-height: 1.5; }      
+pre,code,tt { font: 1em 'andale mono', 'lucida console', monospace; line-height: 1.5; background-color: #F3F5F7; font-size: 90%; overflow:auto;
+}      
+
+.code-highlighted {background-color:#ffff00;}
 
 /* Use a .alertbox to create a padded box inside a column.  */ 
 .alertbox {
